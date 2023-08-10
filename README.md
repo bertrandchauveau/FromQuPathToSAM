@@ -8,6 +8,10 @@ The code for SAM inference is based on the tutorial provided in the official SAM
 
 Here, as in the example of a kidney biopsy provided in the notebook, objects were annotated with points in the QuPath software (https://github.com/qupath/qupath), using the point tool and depending on classes. Points’ coordinates were then extracted with the software interface. The provided code converts the absolute coordinates (at the whole slide image level) to relative coordinates (at the level of a tile) and provides them as inputs to SAM in order to segment each object. A minimal post-processing step is applied, to avoid invalid masks that could disturb the overall segmentation and visibility.
 
+<a target="_blank" href="https://colab.research.google.com/github/bertrandchauveau/FromQuPathToSAM/blob/main/SAM_histopathology.ipynb">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a>
+
 Here are the results with a kidney biopsy image, considering three classes (tubule, glomerulus and vessel) and using one foreground point per object.
 ![SAM_forgithub](https://github.com/bertrandchauveau/FromQuPathToSAM/assets/110421330/26abe95f-3c12-470c-ba7f-917069cc5891)
 
