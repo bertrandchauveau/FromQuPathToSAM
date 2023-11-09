@@ -1,8 +1,8 @@
 # FromQuPathToSAM
 
-This repository contains the code used to segment objects from histopathological slides with Segment Anything Model (SAM). It is part of an unpublished project currently under review at a scientific journal.
+This repository contains the code used to segment objects from histopathological slides with Segment Anything Model (SAM).
 
-The code is written in Python, commented and presented in a format compatible with a Google Colaboratory implementation (last checked August 6, 2023). For a detailed description of the context, please see the related manuscript which will be cited here after acceptance.
+The code is written in Python, commented and presented in a format compatible with a Google Colaboratory implementation (last checked August 6, 2023). For a detailed description of the context, please see the related manuscript publisehd in Pathology (Segment Anything by Meta as a foundation model for image segmentation: a new era for histopathological images. Pathology. 2023 Sep 26:S0031-3025(23)00242-8. doi: 10.1016/j.pathol.2023.09.003, https://www.pathologyjournal.rcpa.edu.au/article/S0031-3025(23)00242-8/fulltext).
 
 The code for SAM inference is based on the tutorial provided in the official SAM repository by Meta (https://github.com/facebookresearch/segment-anything), with the related paper: Kirillov A, Mintun E, Ravi N, Mao H, Rolland C, Gustafson L, et al. Segment Anything. arXiv; 2023. Available from: http://arxiv.org/abs/2304.02643.
 
